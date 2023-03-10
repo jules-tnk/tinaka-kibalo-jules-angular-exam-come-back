@@ -1,0 +1,19 @@
+
+
+<div class="card h-100" *ngIf="book">
+  <!-- book-->
+  <img class="card-img-top img-fluid h-50"
+
+       src="{{book.cover}}" alt="..."/>
+  <!-- book details-->
+  <div class="card-body p-4">
+    <div class="text-center">
+      <!-- book infos-->
+      <h5 class="fw-bolder">Title:{{book.name}}</h5>
+      <h5 class="fw-bolder">Authors:{{book.authors}}</h5>
+      <h5 class="fw-bolder">Year:{{book.year}}</h5>
+    </div>
+  </div>
+</div>
+
+
